@@ -19,7 +19,6 @@
 .header-texto {
   margin-left: 50px;
 }
-
 .header-lista {
   justify-content: space-around;
   display: flex;
@@ -27,7 +26,6 @@
   margin-right: 50px;
   width: 130px;
 }
-
 .header-container-bottom {
   height: 60px;
   align-items: center;
@@ -35,18 +33,15 @@
   background-color: #f0a83e;
   justify-content: space-between;
 }
-
 .logo {
   margin-left: 50px;
   font-weight: bold;
   color: #ffffff;
   font-size: 20px;
 }
-
 .texto-logo-top {
   color: #3c2313;
 }
-
 .nav-lista {
   width: 450px;
   list-style: none;
@@ -58,7 +53,9 @@
   align-content: center;
 }
 
-/* main */
+
+
+/*bienvenida */
 .fondo-bienvenida {
   align-items: center;
   justify-content: flex-end;
@@ -94,6 +91,10 @@
   padding: 10px 20px;
   color: #ffffff;
 }
+
+
+
+/*fondo blanco */
 .fondo-blanco {
   align-content: center;
   align-items: center;
@@ -107,6 +108,8 @@
   width: 60px;
   height: 60px;
 }
+
+/*productos */
 .titulo-productos {
   color: #3c2313;
   font-size: 40px;
@@ -146,6 +149,8 @@
   text-align: center;
   font-weight: bolder;
 }
+
+/*contactanos */
 .contactanos {
   margin-bottom: 20px;
   margin-top: 30px;
@@ -187,6 +192,8 @@
   background-color: #f0a83e;
   padding: 10px;
 }
+
+/*suscripcion*/
 .suscribete {
   margin-top: 50px;
   justify-content: space-between;
@@ -221,7 +228,6 @@
   padding: 15px;
   background-color: #ffffff;
 }
-
 .boton-suscribirme {
   margin-left: 5px;
   text-align: center;
@@ -233,11 +239,15 @@
   padding: 10px;
   background-color: #3c2313;
 }
+
+
+
+/*fondo marron */
 .fondo-marron {
   align-items: center;
-  height: 35vh;
+  height: auto;
   justify-content: space-between;
-  width:auto;
+  width: auto;
   background-color: #3c2313;
   display: flex;
 }
@@ -267,13 +277,26 @@
   color: #8A8787;
   font-size: 10px;
 }
+
+
 footer {
   text-align: center;
   background-color: #222222;
   color: white;
   font-size: 10px;
 }
-@media (max-width: ) {
-
+@media (max-width: 950px) {
+  .suscribete {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+  .sus-img-text {
+    margin-left: 0px;
+    font-size: 20px;
+  }
+  .sus-correoYboton {
+    margin-right: 0px;
+  }
   
 }
