@@ -132,12 +132,12 @@
   display: flex;
   background-color: #fbfaf6;
   border-radius: 10px;
-  width: 30vw;
-  height: 330px;
+  width: 20vw;
+  height: 25vw;
   color: #3c2313;
 }
 .producto-img {
-  width: 25vw;
+  width: 100%;
   border-radius: 10px;
 }
 .precio {
